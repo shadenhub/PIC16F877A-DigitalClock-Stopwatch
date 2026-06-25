@@ -1,6 +1,6 @@
 # PIC16F877A Digital Clock, Stopwatch & HSLM Display
 
->  **Student Project** — Computer Engineering, Written in PIC Assembly Language
+> 🎓 **Student Project** — Computer Engineering, Written in PIC Assembly Language
 
 A bare-metal embedded systems project built on the **PIC16F877A** microcontroller, driving a **Nokia 5110 LCD** over hardware SPI. The system features a navigable main menu with three functional modes: a real-time clock, a stopwatch, and a horizontal scrolling animation.
 
@@ -8,11 +8,12 @@ A bare-metal embedded systems project built on the **PIC16F877A** microcontrolle
 
 ## 👩‍💻 Team
 
-| Name       | Role |
+| Name | Role |
+|------|------|
 | **Shaden** | **Team Leader** |
-| Heba       | Member |
-| Leen       | Member |
-| Mayar      | Member |
+| Heba | Member |
+| Leen | Member |
+| Mayar | Member |
 
 ---
 
@@ -29,35 +30,38 @@ A bare-metal embedded systems project built on the **PIC16F877A** microcontrolle
 
 ## 🔧 Hardware
 
-| Component       | Details |
+| Component | Details |
+|-----------|---------|
 | Microcontroller | PIC16F877A |
-| Display         | Nokia 5110 LCD (PCD8544 controller) |
-| Clock Speed     | 4 MHz |
-| Communication   | SPI via MSSP module |
+| Display | Nokia 5110 LCD (PCD8544 controller) |
+| Clock Speed | 4 MHz |
+| Communication | SPI via MSSP module |
 
 ---
 
 ## 📌 Pin Connections
 
-| Signal     | PIC Pin | Description |
-| LCD RST    | RD0     | Reset (active low) |
-| LCD DC     | RD1     | Data / Command select |
-| LCD CE     | RD2     | Chip Enable (active low) |
-| SCLK       | RC3     | SPI Clock |
-| SDIN       | RC5     | SPI Data |
-| BTN SELECT | RB4     | Cycle menu items |
-| BTN ENTER  | RB5     | Open item / Start-Stop stopwatch |
-| BTN BACK   | RB6     | Return to main menu |
+| Signal | PIC Pin | Description |
+|--------|---------|-------------|
+| LCD RST | RD0 | Reset (active low) |
+| LCD DC | RD1 | Data / Command select |
+| LCD CE | RD2 | Chip Enable (active low) |
+| SCLK | RC3 | SPI Clock |
+| SDIN | RC5 | SPI Data |
+| BTN SELECT | RB4 | Cycle menu items |
+| BTN ENTER | RB5 | Open item / Start-Stop stopwatch |
+| BTN BACK | RB6 | Return to main menu |
 
 ---
 
 ## 🗂️ System Modes
 
-| Mode ID | Name      | Description |
-| `0xFF`  | Main Menu | Boot screen, navigate with SELECT/ENTER/BACK |
-| `0x00`  | Clock     | Live 24-hour clock, starts at 12:00:00 |
-| `0x01`  | Stopwatch | Counts up, controlled by ENTER button |
-| `0x02`  | HSLM      | Horizontal scrolling sprite animation |
+| Mode ID | Name | Description |
+|---------|------|-------------|
+| `0xFF` | Main Menu | Boot screen, navigate with SELECT/ENTER/BACK |
+| `0x00` | Clock | Live 24-hour clock, starts at 12:00:00 |
+| `0x01` | Stopwatch | Counts up, controlled by ENTER button |
+| `0x02` | HSLM | Horizontal scrolling sprite animation |
 
 ---
 
@@ -86,6 +90,12 @@ A bare-metal embedded systems project built on the **PIC16F877A** microcontrolle
 ├── README.md     # Project documentation
 └── LICENSE       # MIT License
 ```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
