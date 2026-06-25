@@ -1,0 +1,164 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Sun May 31 23:11:32 2026
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x00077e
+                   .org_3       code   0x000500    program   0x000068
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x0003c2      
+                            0x000500    0x000533      
+            1012 out of 8454 program addresses used, program memory utilization is 11%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             BCK_RELEASED   0x0000f6    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            CHECK_BUTTONS   0x0000dd    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 CHK_BACK   0x0000ef    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                CHK_ENTER   0x0000e7    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           CLEAR_COL_LOOP   0x0000d2    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           CLEAR_HSLM_ROW   0x000192    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      CLEAR_HSLM_ROW_LOOP   0x000198    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          CLEAR_PAGE_LOOP   0x0000d0    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             CLEAR_SCREEN   0x0000ca    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               CLOCK_MATH   0x000081    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           CLOCK_SELECTED   0x000120    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     DRAW_CLOCK_SEPARATOR   0x0001df    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     DRAW_SEPARATOR_BLANK   0x0001e8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               D_LOOP_OLD   0x000203    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          DrawClockScreen   0x000151    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           DrawHSLMScreen   0x00018a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      DrawStopWatchScreen   0x0001a3    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             ENT_RELEASED   0x0000ee    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               FONT_Table   0x000500    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            HSLM_DRAW_NOW   0x00007f    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                HSLM_MATH   0x00006f    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            HSLM_SELECTED   0x000138    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           INITIALIZE_LCD   0x000041    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                INIT_MSSP   0x000038    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              INIT_TIMER0   0x00002c    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                      ISR   0x000004    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 ISR_EXIT   0x00000c    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 LOOP_END   0x00011a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                     MAIN   0x000054    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     MENU_CHECK_STOPWATCH   0x00012a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          OPEN_CLOCK_MODE   0x00014f    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           OPEN_HSLM_MODE   0x000184    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+         OPEN_MODE_SCREEN   0x000142    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      OPEN_STOPWATCH_MODE   0x00019d    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          POLL_INTERFACES   0x0000f8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     PRINT_CLOCK_INVERTED   0x00020d    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+       PRINT_CLOCK_NORMAL   0x00024a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      PRINT_HSLM_INVERTED   0x000361    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+        PRINT_HSLM_NORMAL   0x000392    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+ PRINT_STOPWATCH_INVERTED   0x000287    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+   PRINT_STOPWATCH_NORMAL   0x0002f4    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+    REFRESH_ACTIVE_SCREEN   0x000066    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               ROUTE_BACK   0x000112    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              ROUTE_ENTER   0x000106    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      RUN_POLL_INTERFACES   0x00005a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             SEL_RELEASED   0x0000e6    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 SEND_CMD   0x0000a9    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                SEND_DATA   0x0000b4    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            SEND_INV_DATA   0x0000bf    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              SET_LCD_ROW   0x0000c2    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           SHOW_MAIN_MENU   0x00011b    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             SPLIT_2DIGIT   0x0001ef    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               SPLIT_DONE   0x0001f8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               SPLIT_LOOP   0x0001f1    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+         START_INITIALIZE   0x000011    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           STOPWATCH_MATH   0x000096    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+       STOPWATCH_SELECTED   0x00012e    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+         STOPWATCH_TOGGLE   0x0001d8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          Send_Font_Digit   0x0001f9    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             StartCounter   0x00005b    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              UpdateClock   0x000157    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          UpdateStopWatch   0x0001ab    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             WAIT_SPI_CMD   0x0000ad    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            WAIT_SPI_DATA   0x0000b8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                     loop   0x000533    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000004    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 ISR_EXIT   0x00000c    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+         START_INITIALIZE   0x000011    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              INIT_TIMER0   0x00002c    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                INIT_MSSP   0x000038    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           INITIALIZE_LCD   0x000041    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                     MAIN   0x000054    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      RUN_POLL_INTERFACES   0x00005a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             StartCounter   0x00005b    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+    REFRESH_ACTIVE_SCREEN   0x000066    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                HSLM_MATH   0x00006f    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            HSLM_DRAW_NOW   0x00007f    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               CLOCK_MATH   0x000081    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           STOPWATCH_MATH   0x000096    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 SEND_CMD   0x0000a9    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             WAIT_SPI_CMD   0x0000ad    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                SEND_DATA   0x0000b4    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            WAIT_SPI_DATA   0x0000b8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            SEND_INV_DATA   0x0000bf    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              SET_LCD_ROW   0x0000c2    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             CLEAR_SCREEN   0x0000ca    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          CLEAR_PAGE_LOOP   0x0000d0    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           CLEAR_COL_LOOP   0x0000d2    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            CHECK_BUTTONS   0x0000dd    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             SEL_RELEASED   0x0000e6    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                CHK_ENTER   0x0000e7    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             ENT_RELEASED   0x0000ee    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 CHK_BACK   0x0000ef    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             BCK_RELEASED   0x0000f6    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          POLL_INTERFACES   0x0000f8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              ROUTE_ENTER   0x000106    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               ROUTE_BACK   0x000112    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                 LOOP_END   0x00011a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           SHOW_MAIN_MENU   0x00011b    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           CLOCK_SELECTED   0x000120    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     MENU_CHECK_STOPWATCH   0x00012a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+       STOPWATCH_SELECTED   0x00012e    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+            HSLM_SELECTED   0x000138    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+         OPEN_MODE_SCREEN   0x000142    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          OPEN_CLOCK_MODE   0x00014f    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          DrawClockScreen   0x000151    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+              UpdateClock   0x000157    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           OPEN_HSLM_MODE   0x000184    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           DrawHSLMScreen   0x00018a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+           CLEAR_HSLM_ROW   0x000192    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      CLEAR_HSLM_ROW_LOOP   0x000198    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      OPEN_STOPWATCH_MODE   0x00019d    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      DrawStopWatchScreen   0x0001a3    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          UpdateStopWatch   0x0001ab    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+         STOPWATCH_TOGGLE   0x0001d8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     DRAW_CLOCK_SEPARATOR   0x0001df    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     DRAW_SEPARATOR_BLANK   0x0001e8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+             SPLIT_2DIGIT   0x0001ef    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               SPLIT_LOOP   0x0001f1    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               SPLIT_DONE   0x0001f8    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+          Send_Font_Digit   0x0001f9    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               D_LOOP_OLD   0x000203    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+     PRINT_CLOCK_INVERTED   0x00020d    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+       PRINT_CLOCK_NORMAL   0x00024a    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+ PRINT_STOPWATCH_INVERTED   0x000287    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+   PRINT_STOPWATCH_NORMAL   0x0002f4    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+      PRINT_HSLM_INVERTED   0x000361    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+        PRINT_HSLM_NORMAL   0x000392    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+               FONT_Table   0x000500    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+                     loop   0x000533    program     static C:\Users\user\Desktop\CoreX\CoreX\embedded_project\project.asm
+
+
