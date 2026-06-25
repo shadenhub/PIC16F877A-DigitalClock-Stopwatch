@@ -96,9 +96,3 @@ A bare-metal embedded systems project built on the **PIC16F877A** microcontrolle
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
